@@ -2,6 +2,7 @@
 
 #we are using openexchangerates.org to get daily data
 #App ID: b16fd2804c9743458a08a0f89d740c44
+#also concerned only with USD/JPY
 
 import urllib2
 import json
