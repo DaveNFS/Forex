@@ -26,7 +26,7 @@ for i in range(delta.days + 1):
     date_list.append(str(temp_date))
     
 #write data to file
-f = open('daily_data', 'w')
+f = open('daily_data.txt', 'w')
 for date in date_list:
     url = base_url + date + '.json?' + app_id
     response = urllib2.urlopen(url)
